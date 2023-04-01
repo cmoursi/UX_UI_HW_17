@@ -13,8 +13,11 @@ nav {
 }
 
 ul {
-    with: 50%;
-    margin-left: auto;
+    width: 50%;
+    margin-left: 0;
+    list-style-type: none;
+    display: flex;
+
 }
 
 .hero-image {
@@ -23,7 +26,7 @@ ul {
 }
 
 p.hero-image {
-    wifth: 500px;
+    width: 500px;
     margin: 0 auto;
 }
 
