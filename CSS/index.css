@@ -21,9 +21,13 @@ nav {
 
 }
 
-.heder-logo img{
-    position: absolute;
-    left: 50%;
+.header-logo img{
+    position:relative;
+    width: 300px;
+}
+
+.hero-image img{
+    width: 500px;
 }
 
 .inline-block {
