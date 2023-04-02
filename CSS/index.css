@@ -2,7 +2,7 @@
     display: inline-block;
     vertical-align: top;
 }
-.logo {
+.header-logo img{
     width: 23%;
     padding: 1%;
 }
@@ -12,44 +12,48 @@ nav {
    padding: 1%; 
 }
 
-.nav-header ul li {
+.nav-header ul {
     width: 50%;
     margin-left: 0;
     list-style-type: none;
     text-decoration: none;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
-.header-logo img{
-    position:relative;
-    width: 300px;
+
+
+.inline-block {
+    display: flex;
 }
 
 .hero-image img{
     width: 500px;
 }
 
-.inline-block {
-    display: flex;
-}
-
 .hero-image {
-    height: 600px;
-    padding: 25px;
-}
-
-p.hero-image {
     width: 500px;
     margin: 0 auto;
+    padding-bottom: 20px;
+    
 }
 
-.footer {
-    background-color: #373738;
+
+footer {
+    background: navy;
     width: auto;
+    height: fit-content;
+    padding: 5px;
+    
 }
 
-p.footer {
-    /*align h1 and p text with linkedin icon*/
+footer p{
+   color: beige;
+}
+
+footer h1{
+    color:beige;
 }
 
