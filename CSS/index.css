@@ -1,4 +1,4 @@
-.inline-block {
+.nav-header {
     display: inline-block;
     vertical-align: top;
 }
@@ -12,12 +12,22 @@ nav {
    padding: 1%; 
 }
 
-ul {
+.nav-header ul li {
     width: 50%;
     margin-left: 0;
     list-style-type: none;
+    text-decoration: none;
     display: flex;
 
+}
+
+.heder-logo img{
+    position: absolute;
+    left: 50%;
+}
+
+.inline-block {
+    display: flex;
 }
 
 .hero-image {
@@ -30,8 +40,9 @@ p.hero-image {
     margin: 0 auto;
 }
 
-footer {
+.footer {
     background-color: #373738;
+    width: auto;
 }
 
 p.footer {
