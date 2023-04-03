@@ -18,19 +18,13 @@ li {
 }
 header img{
     width: 50%;
-    height: 30%
+    height: 30%;
     vertical-align: top;
-    top: 10px;
-}
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
 }
 
+
 .nav-header ul li{
-    margin-left: 0;
+    margin-left: 24;
     margin-right: 24px;
     list-style-type: none;
     text-decoration: none;
