@@ -1,23 +1,39 @@
 .nav-header {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     vertical-align: top;
+
 }
-.header-logo img{
-    width: 23%;
-    padding: 1%;
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav {
-   width: 73%;
-   padding: 1%; 
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-header ul {
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
     width: 50%;
+    height: 30%
+    vertical-align: top;
+    top: 10px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.nav-header ul li{
     margin-left: 0;
+    margin-right: 24px
     list-style-type: none;
     text-decoration: none;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
 
@@ -37,12 +53,12 @@ nav {
     width: 500px;
     margin: 0 auto;
     padding-bottom: 20px;
+    display: block;
     
 }
 
-
 footer {
-    background: navy;
+    background: darkolivegreen;
     width: auto;
     height: fit-content;
     padding: 5px;
@@ -51,6 +67,14 @@ footer {
 
 footer p{
    color: beige;
+   font-size: 10px;
+}
+
+footer h2{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight:100
 }
 
 footer h1{
