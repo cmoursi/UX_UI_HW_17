@@ -3,9 +3,7 @@ header {
     flex-direction: row;
     vertical-align: top;
     align-items: center;
-    justify-content: space-around;
     justify-content:flex-start;
-    border: 2px solid red;
 
 }
 p {
@@ -23,13 +21,13 @@ li {
 header img{
     width: 300px;
     height: 40px;
-    border: 2px solid red;
     
     
 }
 header ul {
     justify-items: left;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+    padding-left: 10vw;
 }
 
 header ul li{
@@ -54,7 +52,6 @@ header ul li{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    border: 2px solid red;
     
 }
 
