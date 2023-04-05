@@ -1,6 +1,5 @@
-.nav-header {
-    display: flex;
-    flex-direction: row;
+header div{
+    display: inline-block;
     vertical-align: top;
 
 }
@@ -17,26 +16,20 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header img{
-    width: 40%;
-    height: 20%;
-    padding: 0 10vw;
+    width: 300px;
+    height: 40px;
     vertical-align: top;
+    
 }
 
-
-.nav-header ul li{
+header ul li{
     margin-left: 24;
     margin-right: 24px;
+    padding: 0;
     list-style-type: none;
     text-decoration: none;
     display: inline;
 
-}
-
-
-
-.inline-block {
-    display: flex;
 }
 
 .hero-image img{
